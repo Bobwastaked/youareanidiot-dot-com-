@@ -60,7 +60,6 @@ function openWindow(url) {
 function proCreate() {	
 	for (var i = 0; i < 3; i++) {
 		openWindow('lol.html');
-		openWindow('https://agacelebir.com/4/2888721');
 	}
 }
 
