@@ -91,10 +91,10 @@ function playBall() {
     xPos += xOff;
     yPos += yOff;
     
-	if (xPos > screen.width - 357) newXlt();    
+	if (xPos > screen.width - 150) newXlt();    
 	if (xPos < 0) newXrt();
     
-	if (yPos > screen.height - 330) newYup(); 		
+	if (yPos > screen.height - 120) newYup(); 		
 	if (yPos < 0) newYdn();
     
 	if (flagRun == 1) {
