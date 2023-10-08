@@ -58,7 +58,7 @@ function playBall() {
     xPos += xOff;
     yPos += yOff;
     
-	if (xPos > screen.width - 357) {
+	if (xPos > screen.width - 150) {
 		newXlt();
     }
     
@@ -66,7 +66,7 @@ function playBall() {
 		newXrt();
     }
     
-	if (yPos > screen.height - 330) {
+	if (yPos > screen.height - 150) {
         newYup();
     }   
 		
